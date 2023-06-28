@@ -25,13 +25,6 @@
 }
 
 body {
-  /*background-image: url(./assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover; /*cobrir a area toda
-  */
-
-  /*agrupar background: color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
@@ -45,8 +38,6 @@ body * {
 #container {
   width: 100%;
   max-width: 588px;
-  /*height: 712px; - no css não precisa definir altura, pois segue o conteudo da pagina*/
-  /*border: 1px solid red; (caso tivesse borda para entender o layout do que está acontecendo na tela)*/
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -120,8 +111,6 @@ ul {
 }
 
 ul li a {
-  /*ul li = o li ocupa todo espaço da caixa*/
-  /*ul li a = o a é display inline, porém com : flex ou block tem o mesmo comportamento do li*/
   display: flex;
   align-items: center;
   justify-content: center;
