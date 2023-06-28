@@ -42,7 +42,8 @@ body * {
 
 /*seletor de id*/ /*px= pixel*/
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /*height: 712px; - no css não precisa definir altura, pois segue o conteudo da pagina*/
   /*border: 1px solid red; (caso tivesse borda para entender o layout do que está acontecendo na tela)*/
   margin: 56px auto 0px;
